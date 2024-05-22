@@ -1,15 +1,17 @@
+import { NavLink, Route, Routes } from "react-router-dom"
+
 export const Header = () => {
     return(
         <header className="header" id="header">
         <div className="container">
           <a href="#" className="logo">YOUR LOGO</a>
           <nav className="navigates">
-            <a href="#">HOME</a>
-            <a href="#">SHOP</a>
-            <a href="#">LOOKBOOK</a>
-            <a href="#">FEATURES</a>
-            <a href="#">PAGES</a>
-            <a href="#">BLOG</a>
+            <NavLink to=""> Home</NavLink>
+            <NavLink to="/shop"> SHOP</NavLink>
+            <NavLink to="/lookbook"> LOOKBOOK</NavLink>
+            <NavLink to="/features"> FEATURES</NavLink>
+            <NavLink to="/pages"> PAGES</NavLink>
+            <NavLink to="/blog"> BLOG</NavLink>
           </nav>
 
           <div className="action">
