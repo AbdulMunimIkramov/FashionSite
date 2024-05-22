@@ -251,3 +251,24 @@ button {
 .newPrice{
     color: red;
 }
+
+/* LOOKBOOK */
+.form .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    gap: 10px;
+}
+
+.form .container input{
+    width: 200px;
+}
+.form .container button{
+    width: 200px;
+    border: 1px solid black;
+    background-color: #22262a;
+    color: white;
+}
+
+/* LOOKBOOK */
