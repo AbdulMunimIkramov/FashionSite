@@ -1,19 +1,19 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import { Hero } from "./pages/Hero";
+import { Shop } from "./pages/Shop";
+import { Lookbook } from "./pages/Lookbook";
+import { Features } from "./pages/Features";
+import { Pages } from "./pages/Pages";
+import { Blog } from "./pages/Blog";
 import { Header } from "./components/Header";
-import { Hero } from "./components/Hero";
-import { Shop } from "./components/Shop";
-import { Lookbook } from "./components/Lookbook";
-import { Features } from "./components/Features";
-import { Pages } from "./components/Pages";
-import { Blog } from "./components/Blog";
-import { Cards } from "./components/Cards";
-import { WomenSaction } from "./components/WomanSaction";
+
+
 
 const App = () => {
   return (
     <>
-      <Header />
+      <Header/>
       <Routes>
         <Route path="" element={<Hero />} />
         <Route path="/shop" element={<Shop />} />
